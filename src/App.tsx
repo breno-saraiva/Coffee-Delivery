@@ -1,14 +1,7 @@
-import Header from "./components/header";
+import Home from "./pages/Home";
 
 function App() {
-  return (
-    <div>
-      <Header />
-      <h1 className="text-3xl font-bold underline text-red-500 bg-yellow-500">
-        Hello world!
-      </h1>
-    </div>
-  );
+  return <Home />;
 }
 
 export default App;

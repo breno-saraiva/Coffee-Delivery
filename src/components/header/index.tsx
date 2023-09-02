@@ -2,7 +2,7 @@ import { MapPin, ShoppingCart } from "@phosphor-icons/react";
 
 function Header() {
   return (
-    <header className="h-28 px-40 py-8 flex items-center justify-between">
+    <header className="h-28 py-8 flex items-center justify-between">
       <img src="\src\assets\Logo@2x.svg" />
       <div className="flex gap-3">
         <button className="px-2 py-2 flex gap-1 items-center rounded-md bg-[#EBE5F9] w-37 h-9 text-[#8047F8]">
