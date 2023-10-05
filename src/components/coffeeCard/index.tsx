@@ -27,7 +27,6 @@ function CoffeeCard({ description, img, tag, title }: CoffeeCardType) {
           <div className="font-roboto text-sm text-[#574F4D]">R$</div>
           <div className="font-baloo text-xl text-[#574F4D]">9,90</div>
         </div>
-
         <div className="flex justify-center items-center gap-2">
           <div className="bg-[#E6E5E5] flex justify-center items-center rounded-md gap-1 px-[0.531rem] py-3">
             <button className="text-[#8047F8]">
