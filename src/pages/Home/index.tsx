@@ -4,6 +4,7 @@ import Header from "../../components/header";
 import Hero from "../../components/hero";
 import { dataProps } from "./service/getItems.dto";
 import { getItems } from "./service/getItems.service";
+//import CoffeeImg from `../../assets/coffee-list/${data.img}`;
 
 function Home() {
   const [data, setData] = useState<dataProps>();
@@ -25,7 +26,7 @@ function Home() {
         <div className=" flex gap-8 flex-wrap items-center">
           {data?.map((obj) => (
             <CoffeeCard
-              img="../../assets/coffee-list/expresso-americano.png"
+              img={obj.img as string}
               title={obj.title as string}
               tag={obj.tag as string}
               description={obj.description as string}
