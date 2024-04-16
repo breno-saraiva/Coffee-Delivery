@@ -4,7 +4,7 @@ import Header from "../../components/header";
 import Hero from "../../components/hero";
 import { dataProps } from "./service/getItems.dto";
 import { getItems } from "./service/getItems.service";
-import CoffeeImg from "../../images/coffee-expresso-tradicional.png";
+// import CoffeeImg from "../../images/coffee-expresso-tradicional.png";
 
 function Home() {
   const [data, setData] = useState<dataProps>();
