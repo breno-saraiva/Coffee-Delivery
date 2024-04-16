@@ -1,4 +1,4 @@
-import { MapPin, ShoppingCart } from "@phosphor-icons/react";
+import { MapPin } from "@phosphor-icons/react";
 
 function Header() {
   return (
