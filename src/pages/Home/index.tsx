@@ -26,7 +26,7 @@ function Home() {
         <div className=" flex gap-8 flex-wrap items-center">
           {data?.map((obj) => (
             <CoffeeCard
-              img={CoffeeImg}
+              img={obj.img as string}
               title={obj.title as string}
               tag={obj.tag as string}
               description={obj.description as string}

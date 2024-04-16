@@ -9,6 +9,7 @@ type CoffeeCardType = {
 };
 
 function CoffeeCard({ description, img, tag, title, price }: CoffeeCardType) {
+  console.log(img);
   return (
     <div className="w-64 h-80 bg-[#F3F2F2] rounded-tl-md rounded-tr-[2.25rem] rounded-bl-[2.25rem] rounded-br-md mb-10">
       <header className="flex flex-col items-center gap-3">
