@@ -4,7 +4,7 @@ import Header from "../../components/header";
 import Hero from "../../components/hero";
 import { dataProps } from "./service/getItems.dto";
 import { getItems } from "./service/getItems.service";
-// import CoffeeImg from "../../images/coffee-expresso-tradicional.png";
+import CoffeeImg from "../../images/coffee-expresso-tradicional.png";
 
 function Home() {
   const [data, setData] = useState<dataProps>();
@@ -28,7 +28,7 @@ function Home() {
             <>
               <img src="../../images/coffee-expresso-tradicional.png" alt="" />
               <CoffeeCard
-                img={obj.img as string}
+                img={CoffeeImg}
                 title={obj.title as string}
                 tag={obj.tag as string}
                 description={obj.description as string}
