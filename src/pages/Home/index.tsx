@@ -25,16 +25,13 @@ function Home() {
         <h1 className="font-baloo text-3xl mb-14">Nossos cafés</h1>
         <div className=" flex gap-8 flex-wrap items-center">
           {data?.map((obj) => (
-            <>
-              <img src="../../images/coffee-expresso-tradicional.png" alt="" />
-              <CoffeeCard
-                img={CoffeeImg}
-                title={obj.title as string}
-                tag={obj.tag as string}
-                description={obj.description as string}
-                price={obj.price as string}
-              />
-            </>
+            <CoffeeCard
+              img={CoffeeImg}
+              title={obj.title as string}
+              tag={obj.tag as string}
+              description={obj.description as string}
+              price={obj.price as string}
+            />
           ))}
         </div>
       </main>
