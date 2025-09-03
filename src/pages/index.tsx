@@ -1,10 +1,11 @@
 import { useEffect, useState } from "react";
-import CoffeeCard from "../../components/coffeeCard";
-import Header from "../../components/header";
-import Hero from "../../components/hero";
-import { dataProps } from "../../service/getItems.dto";
-import { getItems } from "../../service/getItems.service";
-import CoffeeImg from "../../images/coffee-expresso-tradicional.png";
+
+import CoffeeImg from "../../src/images/coffee-expresso-tradicional.png";
+import { dataProps } from "../service/getItems.dto";
+import { getItems } from "../service/getItems.service";
+import Header from "../components/header";
+import Hero from "../components/hero";
+import CoffeeCard from "../components/coffeeCard";
 
 function Home() {
   const [data, setData] = useState<dataProps>();
